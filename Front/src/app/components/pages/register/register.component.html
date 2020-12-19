@@ -1,0 +1,43 @@
+<mat-card>
+    <mat-card-title>
+        Registro
+    </mat-card-title>
+    <form>
+        <div class="form-group">
+            <label for="Nombre">Nombre</label>
+            <input type="Nombre" class="form-control" id="Nombre" aria-describedby="Nombre"
+                placeholder="Ingrese su nombre">
+        </div>
+        <div class="form-group">
+            <label for="Apellidos">Apellidos</label>
+            <input type="Nombre" class="form-control" id="Apellidos" aria-describedby="Apellidos"
+                placeholder="Ingreses sus apellidos">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Dirección de correo electrónico</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="Ingrese su dirección de correo electrónico">
+            <small id="emailHelp" class="form-text text-muted">Este correo no será compartido con nadie más</small>
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1">contraseña</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contraseña">
+        </div>
+
+
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <label class="input-group-text" for="inputGroupSelect01">Rol</label>
+            </div>
+            <select class="custom-select" id="inputGroupSelect01">
+                <option selected>Choose...</option>
+                <option value="1">Estudiante</option>
+                <option value="2">Profesor</option>
+            </select>
+        </div>
+        <button type="submit" class="btn btn-danger">Submit</button>
+
+
+    </form>
+
+</mat-card>

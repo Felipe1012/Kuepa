@@ -1,0 +1,25 @@
+:host{
+    display: flex;
+    justify-content: center;
+    margin: 200px 0;
+}
+
+.mat-card{
+    width: 70%;
+    min-width: 700px 
+    ;
+}
+
+
+#left {
+    float:left ;
+    justify-content: left;
+}
+#right { 
+    float:right
+ }
+.in{
+    position:absolute;
+    bottom:5px;
+    right:10px; 
+}
